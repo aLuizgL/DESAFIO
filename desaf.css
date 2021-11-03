@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    flex: 1;
+  }
+  #main > article {
+    flex: 1;
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 10vw;
+    background: #868B98;
+  }
+  #main > nav {
+    order: -1;
+  }
+
+  header {
+    background: #002FCB;
+    height: 5vh;
+  }
+  footer{
+      background: #002FCB;
+      height: 2vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+  #minu {
+      border: 0;
+      display: flex;
+      flex: 0%;
+  }
