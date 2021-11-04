@@ -47,6 +47,8 @@
   }
   
   .flex-container > div {
+    border-color: #5E5E5E;
+    border-style: solid;
     background-color: whitesmoke;
     width: 100px;
     margin: 10px;
