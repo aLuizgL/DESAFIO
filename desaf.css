@@ -16,20 +16,20 @@
   }
   #main > nav, 
   #main > aside {
-    flex: 0 0 10vw;
-    background: #868B98;
+    flex: 0 0 3vw;
+    background: #5E5E5E;
   }
   #main > nav {
     order: -1;
   }
 
   header {
-    background: #002FCB;
+    background: #00DCE4;
     height: 5vh;
   }
   footer{
-      background: #002FCB;
-      height: 2vh;
+      background: #00DCE4;
+      height: 5vh;
   }
   header, footer, article, nav, aside {
     padding: 1em;
@@ -38,4 +38,19 @@
       border: 0;
       display: flex;
       flex: 0%;
+  }
+  .flex-container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #00DCE4;
+  }
+  
+  .flex-container > div {
+    background-color: whitesmoke;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
   }
