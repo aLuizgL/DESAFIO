@@ -14,22 +14,25 @@
   #main > article {
     flex: 1;
   }
-  #main > nav, 
+  #main > nav{
+    flex: 0 0 1vw;
+    background: #010F10;
+  }
   #main > aside {
-    flex: 0 0 3vw;
-    background: #5E5E5E;
+    flex: 0.5;
+    background: white;
   }
   #main > nav {
     order: -1;
   }
 
   header {
-    background: #00DCE4;
-    height: 5vh;
+    background: #010F10;
+    height: 2vh;
   }
   footer{
-      background: #00DCE4;
-      height: 5vh;
+      background: #010F10;
+      height: 4vh;
   }
   header, footer, article, nav, aside {
     padding: 1em;
@@ -43,11 +46,11 @@
     justify-content: center;
     display: flex;
     flex-wrap: nowrap;
-    background-color: #00DCE4;
+    background-color: white;
   }
   
   .flex-container > div {
-    border-color: #5E5E5E;
+    border-color: #010F10;
     border-style: solid;
     background-color: whitesmoke;
     width: 100px;
@@ -56,3 +59,17 @@
     line-height: 40px;
     font-size: 20px;
   }
+  #maindos {
+    display: flex;
+    justify-content: space-around;
+    background-color: #010F10;
+  }
+  #maindos > article {
+    flex: 1;
+  }
+  .categoria {
+    display:flex;
+    direction: wrap;
+    justify-content: space-evenly;
+  }
+ 
